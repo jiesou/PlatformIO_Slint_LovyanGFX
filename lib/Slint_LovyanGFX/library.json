@@ -1,0 +1,33 @@
+{
+    "name": "Slint LovyanGFX",
+    "version": "1.0.0",
+    "keywords": "slint, lcd, tft, graphics, gui, m5stack, ili9341, st7735, ili9163, s6d02a1, ili9481",
+    "description": "Slint on PlatformIO with LovyanGFX backend",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "jiesou",
+            "url": "https://github.com/jiesou",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jiesou/PlatformIO_Slint_LovyanGFX.git"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "headers": "slint-lgfx.h",
+    "dependencies": {
+        "lovyan03/LovyanGFX": "*"
+    },
+    "build": {
+        "extraScript": "extra_script.py",
+        "includeDir": "include",
+        "srcFilter": "+<*> -<sdk/> -<tools/>"
+    }
+}
