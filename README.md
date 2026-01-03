@@ -1,5 +1,7 @@
 # Slint-LovyanGFX
 
+[简体中文](./README.zh.md)
+
 This library ports [Slint](https://slint.dev/)'s [ESP32 support](https://components.espressif.com/components/slint/slint) from ESP-IDF to the **PlatformIO + Arduino** environment.
 
 It uses [LovyanGFX](https://github.com/lovyan03/LovyanGFX) as the graphics backend, enabling support for a wide variety of LCD/TFT screens, touchscreens, and even e-ink displays (far beyond the limited support in `esp-bsp`).
