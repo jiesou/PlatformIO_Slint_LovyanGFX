@@ -1,5 +1,5 @@
 {
-    "name": "Slint LovyanGFX",
+    "name": "Slint_LovyanGFX",
     "version": "1.0.0",
     "keywords": "slint, lcd, tft, graphics, gui, m5stack, ili9341, st7735, ili9163, s6d02a1, ili9481",
     "description": "Slint on PlatformIO with LovyanGFX backend",
