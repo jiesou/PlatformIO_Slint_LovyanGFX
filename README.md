@@ -8,13 +8,13 @@ It uses [LovyanGFX](https://github.com/lovyan03/LovyanGFX) as the graphics backe
 
 > **Warning**: This port is currently **experimental**. It has been validated with simple interfaces. Complex interfaces (e.g., `AboutSlint` with heavy image resources) may fail. Contributions are welcome!
 
-> **Tested On**: PC Linux x86_64, ESP32-S3 + ST7789. Should compatible with other platforms.
+> **Tested On**: [pioarduino/platform-espressif32 53.03.13](https://github.com/pioarduino/platform-espressif32/releases/tag/53.03.13), PC Linux x86_64, ESP32-S3 + ST7789. Should compatible with other platforms.
 
 https://github.com/user-attachments/assets/62571ef6-72a0-482f-9a48-f4d0882f484e
 
 ## How to Use
 
-Recommended to follow the `examples/simple/` example project for a quick setup.
+Recommended to **follow the `examples/simple/` example project** for a quick setup.
 
 ### 1. Dependencies & Setup
 

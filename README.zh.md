@@ -8,11 +8,11 @@
 > 
 > **欢迎大佬贡献代码！**
 > 
-> **测试环境**：PC Linux x86_64, ESP32-S3 + ST7789。理论上可以在其他平台使用。
+> **测试环境**：[pioarduino/platform-espressif32 53.03.13](https://github.com/pioarduino/platform-espressif32/releases/tag/53.03.13), PC Linux x86_64, ESP32-S3 + ST7789。理论上可以在其他平台使用。
 
 ## 使用方法
 
-建议先参考 `examples/simple/` 里的例程。
+建议先 **参考 `examples/simple/` 里的例程。**
 
 ### 1. 添加依赖与屏幕配置
 
